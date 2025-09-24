@@ -9,7 +9,7 @@
     "clean": "expo-module clean",
     "lint": "expo-module lint",
     "test": "jest",
-    "prepare": "expo-module prepare && cp -r assets build/assets",
+    "prepare": "expo-module prepare && cp -r ./src/kokoro-quantized.onnx build && cp -r ./src/voices build/voices",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module",
     "open:ios": "xed example/ios",

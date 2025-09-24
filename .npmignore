@@ -12,5 +12,5 @@ __tests__
 /android/src/test/
 /android/build/
 /example/
-/assets/*.onnx
-/assets/voices/*.bin
+/src/*.onnx
+/src/voices/*.bin
