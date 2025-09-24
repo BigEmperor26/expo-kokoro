@@ -1,2 +1,2 @@
-export { Kokoro } from "./kokoro";
+export { Kokoro as default } from "./kokoro";
 export { KokoroVoice, KokoroVoices } from "./voices";
