@@ -3,7 +3,7 @@ import { InferenceSession, Tensor } from "onnxruntime-react-native";
 import { tokenizer } from "./tokenizer";
 import { load_voice_data, KokoroVoice } from "./voices";
 import floatArrayToWAV from "../wav";
-import { DeepPhonemizer } from '../deep-phonemizer/deep-phonemizer';
+import { DeepPhonemizer } from 'expo-deep-phonemizer';
 import { Asset } from 'expo-asset';
 
 const SAMPLE_RATE = 24000;

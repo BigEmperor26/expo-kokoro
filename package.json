@@ -1,6 +1,6 @@
 {
   "name": "expo-kokoro",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A expo module for using kokoro tts models",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/danemadsen/expo-kokoro#readme",
   "dependencies": {
     "expo-file-system": "^18.1.11",
+    "expo-deep-phonemizer": "^1.0.0",
     "onnxruntime-react-native": "^1.22.0",
     "expo": "~53.0.22",
     "react": "19.0.0",

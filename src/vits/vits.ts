@@ -2,7 +2,7 @@ import * as FileSystem from 'expo-file-system';
 import { InferenceSession, Tensor } from "onnxruntime-react-native";
 import { encode } from './tokenizer';
 import floatArrayToWAV from '../wav';
-import { DeepPhonemizer } from '../deep-phonemizer/deep-phonemizer';
+import { DeepPhonemizer } from 'expo-deep-phonemizer';
 import { Asset } from 'expo-asset';
 
 const SAMPLE_RATE = 22050;

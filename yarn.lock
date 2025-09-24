@@ -3861,6 +3861,17 @@ expo-constants@~17.1.7:
     "@expo/config" "~11.0.12"
     "@expo/env" "~1.0.7"
 
+expo-deep-phonemizer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/expo-deep-phonemizer/-/expo-deep-phonemizer-1.0.0.tgz#f431ed5e59c56520bece80553094511b07804e1e"
+  integrity sha512-hWLcfkSZFjkyhHTW8XVxoYg/caN89B7slEtWzGU4KwUIeElcc5a29crVYxLycRw0zFWrnr32JVg99sXjKtsZNQ==
+  dependencies:
+    expo "~53.0.22"
+    expo-file-system "^18.1.11"
+    onnxruntime-react-native "^1.22.0"
+    react "19.0.0"
+    react-native "0.79.6"
+
 expo-file-system@^18.1.11, expo-file-system@~18.1.11:
   version "18.1.11"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-18.1.11.tgz#a563c715c4bb5c18729d6d104e8c6cdfbd383e69"
