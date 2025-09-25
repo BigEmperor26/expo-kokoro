@@ -1,6 +1,6 @@
 {
   "name": "expo-kokoro",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A expo module for using kokoro tts models",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -9,7 +9,7 @@
     "clean": "expo-module clean",
     "lint": "expo-module lint",
     "test": "jest",
-    "prepare": "expo-module prepare && cp -r ./src/kokoro-quantized.onnx build && cp -r ./src/voices build/voices",
+    "prepare": "expo-module prepare && cp -r ./src/kokoro-quantized.onnx build && cp -r ./src/voices ./build",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module",
     "open:ios": "xed example/ios",

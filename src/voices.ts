@@ -8,7 +8,11 @@ export interface KokoroVoice {
   gender: string;
 }
 
+export const KokoroVoiceIds = Object.keys(VoiceIndex);
+
 export const KokoroVoices = Object.values(VoiceIndex) as Array<KokoroVoice>;
+
+export const KokoroVoiceMap: Record<string, KokoroVoice> = VoiceIndex;
 
 function load_voices(voices: Array<KokoroVoice>): Record<string, number> {
   const voiceMap: Record<string, number> = {};
