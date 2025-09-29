@@ -3861,10 +3861,10 @@ expo-constants@~17.1.7:
     "@expo/config" "~11.0.12"
     "@expo/env" "~1.0.7"
 
-expo-deep-phonemizer@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/expo-deep-phonemizer/-/expo-deep-phonemizer-1.0.0.tgz#f431ed5e59c56520bece80553094511b07804e1e"
-  integrity sha512-hWLcfkSZFjkyhHTW8XVxoYg/caN89B7slEtWzGU4KwUIeElcc5a29crVYxLycRw0zFWrnr32JVg99sXjKtsZNQ==
+expo-deep-phonemizer@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/expo-deep-phonemizer/-/expo-deep-phonemizer-1.0.2.tgz#38a88e234d2c1888ec2dc66ef474a58cd3015ce1"
+  integrity sha512-1yHxXYR2h2AP5Amzu3ZWnTmj96UY2Gg/i26U6R6HfihMqPRrY+iYfw3IZWB6Pshi1MXibappstuEuERr2g7q4g==
   dependencies:
     expo "~53.0.22"
     expo-file-system "^18.1.11"
