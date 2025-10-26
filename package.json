@@ -1,6 +1,6 @@
 {
   "name": "expo-kokoro",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A expo module for using kokoro tts models",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -31,10 +31,11 @@
   "license": "MIT",
   "homepage": "https://github.com/danemadsen/expo-kokoro#readme",
   "dependencies": {
-    "expo-file-system": "^18.1.11",
-    "expo-deep-phonemizer": "^1.0.2",
-    "onnxruntime-react-native": "^1.22.0",
     "expo": "~53.0.22",
+    "expo-deep-phonemizer": "^1.0.4",
+    "expo-file-system": "^18.1.11",
+    "onnxruntime-react-native": "^1.22.0",
+    "onnxruntime-web": "^1.23.0",
     "react": "19.0.0",
     "react-native": "0.79.6"
   },
@@ -50,9 +51,9 @@
   },
   "peerDependencies": {
     "expo": "*",
+    "onnxruntime-react-native": "*",
     "react": "*",
-    "react-native": "*",
-    "onnxruntime-react-native": "*"
+    "react-native": "*"
   },
   "jest": {
     "preset": "ts-jest",
@@ -81,6 +82,9 @@
         }
       ]
     },
-    "extensionsToTreatAsEsm": [".ts", ".tsx"]
+    "extensionsToTreatAsEsm": [
+      ".ts",
+      ".tsx"
+    ]
   }
 }
